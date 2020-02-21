@@ -1,9 +1,14 @@
 import React from "react";
+import Clock from './clock';
 
 const Root = () => {
 
   return (
-  <div>You've got the root</div>
+  <div>
+    <div>this is the root</div>
+    <Clock />
+  </div>
+  
   );
 
 }
