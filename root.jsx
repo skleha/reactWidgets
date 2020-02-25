@@ -8,7 +8,6 @@ const panes = [
   { title: 'three', content: 'Third pane here' }
 ];
 
-
 const Root = () => {
 
   return (
