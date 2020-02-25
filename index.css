@@ -1,5 +1,18 @@
 
 
+.main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+
 ul {
   list-style: none;
   margin: 10px 0px;
@@ -18,8 +31,6 @@ li {
 .selected {
   background-color: #686868;
   color: white;
-
-
 }
 
 article {
@@ -27,4 +38,7 @@ article {
   border: 1px solid black;
   width: 183px;
   height: 60px;
+  text-align: center;
 }
+
+

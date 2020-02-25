@@ -3,7 +3,7 @@ import Clock from './clock';
 import Tabs from './tabs';
 
 const panes = [
-  { title: 'one', content: 'I am the first' },
+  { title: 'one', content: 'I am the first pane' },
   { title: 'two', content: 'Second pane here' },
   { title: 'three', content: 'Third pane here' }
 ];
@@ -11,10 +11,11 @@ const panes = [
 const Root = () => {
 
   return (
-  <div>
-    <div>React Widgets</div>
+  <div className="main">
+    <h2>React Widgets</h2>
     <Clock />
     <Tabs panes={panes}/>
+
   </div>
   
   );
