@@ -20,15 +20,25 @@ class Clock extends React.Component {
     clearInterval(this.intervalId);
   }
 
+  addZeroIfNeeded(number) {
+    let str = number.toString();
+    if (str.length === 1) {
+      return '0' + str;
+    } else {
+      return str;
+    }
+  }
+
   render() {
     
-    const hours = this.state["time"].getHours();
-    const minutes = this.state["time"].getMinutes();
-    const seconds = this.state["time"].getSeconds();
+    const hours = this.addZeroIfNeeded(this.state["time"].getHours());
+    const minutes = this.addZeroIfNeeded(this.state["time"].getMinutes());
+    const seconds = this.addZeroIfNeeded(this.state["time"].getSeconds());
 
     return (
-      <div>
-        <h4>Current time: {hours}:{minutes}:{seconds}</h4>
+      <div className="clock">
+        <div>Current time:</div>
+        <div>{hours}:{minutes}:{seconds}</div>
       </div>
     )
   

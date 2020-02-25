@@ -12,12 +12,15 @@ const Root = () => {
 
   return (
   <div>
-    <h2>React Widgets</h2>
-    <h4>Styled for iPhone 8</h4>
     
-      <div className="main">
-    <Clock />
-    <Tabs panes={panes}/>
+    <div className="title">
+      <h2>React Widgets</h2>
+      <h4>Styled for iPhone 8</h4>
+    </div>
+
+    <div className="main">
+      <Clock />
+      <Tabs panes={panes}/>
     </div>
   </div>
   
