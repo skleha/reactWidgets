@@ -14,8 +14,8 @@ class Tabs extends React.Component {
   }
 
   handleClick(idx) {
-    console.log("hi");
-    // this.setState({currentTab: })
+    
+    this.setState({currentTab: idx})
   }
 
   render() {
@@ -27,6 +27,7 @@ class Tabs extends React.Component {
         <ul>
           {this.props.panes.map((ele, idx) => 
             <li key={idx}
+            onClick={() => this.handleClick(idx)}
             >{ele.title} for the money</li>)}
         </ul>
         <article>
