@@ -15,6 +15,13 @@ li {
   cursor: pointer;
 }
 
+.selected {
+  background-color: #686868;
+  color: white;
+
+
+}
+
 article {
   padding: 10px 10px;
   border: 1px solid black;

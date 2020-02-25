@@ -12,7 +12,7 @@ const Root = () => {
 
   return (
   <div>
-    <div>this is the root</div>
+    <div>React Widgets</div>
     <Clock />
     <Tabs panes={panes}/>
   </div>
