@@ -1,11 +1,12 @@
 import React from "react";
 import Clock from './clock';
 import Tabs from './tabs';
+import Weather from './weather';
 
 const panes = [
-  { title: 'one', content: 'I am the first pane' },
-  { title: 'two', content: 'Second pane here' },
-  { title: 'three', content: 'Third pane here' }
+  { title: 'Name', content: 'Steve Kleha' },
+  { title: 'Email', content: 'skleha@gmail.com' },
+  { title: 'LinkedIn', content: 'Third pane here' }
 ];
 
 const Root = () => {
@@ -21,6 +22,7 @@ const Root = () => {
     <div className="main">
       <Clock />
       <Tabs panes={panes}/>
+      <Weather />
     </div>
   </div>
   
