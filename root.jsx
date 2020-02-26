@@ -6,7 +6,7 @@ import Weather from './weather';
 const panes = [
   { title: 'Name', content: 'Steve Kleha' },
   { title: 'Email', content: 'skleha@gmail.com' },
-  { title: 'LinkedIn', content: 'Third pane here' }
+  { title: 'LinkedIn', content: 'www.linkedin.com/in/steve-kleha' }
 ];
 
 const Root = () => {

@@ -62,7 +62,7 @@ article {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 120px;
+  height: 115px;
 }
 
 .weather-title {
@@ -71,7 +71,7 @@ article {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 100px 70px;
+  grid-template-columns: 110px 70px;
   border: 1px solid black;
   grid-row-gap: 10px;
   padding: 10px;
