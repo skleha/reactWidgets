@@ -1,4 +1,4 @@
-import React from 'React';
+import React from 'react';
 import { allKeys } from './keys';
 
 class Weather extends React.Component {
